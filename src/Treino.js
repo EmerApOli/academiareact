@@ -152,6 +152,7 @@ const Treino = ({match}) => {
       <td><input type='text'  value={id}  onChange={onChangeid}/>
       <label for='exampleFormControlSelect1'>Personal</label>
       
+      
 
 
 
@@ -172,10 +173,7 @@ const Treino = ({match}) => {
   
      <option  value={dataPersonal.data[per].cref}>{dataPersonal.data[per].nome}</option>)}
   
-   
-
-
-       )
+          )
 
      }
      </select>
@@ -185,21 +183,6 @@ const Treino = ({match}) => {
   </div>
     )
 
-
-
-
-
-     
-    
-
-
-
-
-
-
-
-     
- 
          
 
       <button className= 'btn btn-success' onClick={salvarTreino}>+</button></td>
