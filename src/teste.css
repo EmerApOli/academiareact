@@ -1,0 +1,16 @@
+.req {
+    opacity:0;
+  }
+
+  .button {
+    border:0;
+    outline:none;
+    border-radius:0;
+    padding:15px 0;
+    font-size:2rem;
+  font-weight:bold;
+    text-transform:uppercase
+    
+  }
+    
+  
